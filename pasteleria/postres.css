@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+    height: 100vh;
+    background-color: blanchedalmond;
+  
+}
+
+
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    
+    
+ }
+
+a {
+     text-decoration: none;
+     color: black;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+    
+}
+
+nav a{
+    font-weight: 100;
+    padding-right: 10px;
+   padding: 2em;
+    text-align: center;
+    
+
+}
+
+nav a:hover{
+    color: black;
+    background-color: rgb(243, 156, 170);
+    border-radius: 10px;
+    transition: ease-in .3s;
+}
+
+
+.logo img{
+    height: 75px;
+    width: 75px;
+    border-radius: 60%;
+    
+}
+
+
+  
+span{
+    color: rgb(255, 203, 212);
+}
+
+
+
+.portada {
+    width: 100%;
+    height: 300px; 
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+    background-image: url(portada.jpg);
+}
+
+
+
+
+.todas{
+    display: flex;
+}
+
+.caja img{
+
+    
+    width: 200px;
+    border-radius: 10px;
+    
+   
+}
+
+
+.caja{
+    margin: 60px;
+    width: 300px;
+    background-color:rgb(243, 156, 170);
+    height: 300px;
+    color: black;
+    border-radius: 20px;
+}
+
+.caja p{
+    font-weight: 600;
+   
+
+}
+
+.footer{
+    color: black;
+    background-color: bisque;
+    display: flex;
+    padding-top: 6%;
+    border: #00CED1;
+}
